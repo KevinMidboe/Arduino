@@ -1,0 +1,106 @@
+[
+  {
+    "caption": "Tools",
+    "mnemonic": "t",
+    "id": "tools",
+    "children": [
+      {
+        "id": "arduinomenu",
+        "caption": "Arduino",
+        "children": [
+          {
+            "id": "arduinocompile",
+            "caption": "Compile Sketch",
+            "command": "compile"
+          },
+          {
+            "id": "arduinoupload",
+            "caption": "Upload Sketch",
+            "command": "upload"
+          },
+          {
+            "id": "arduinoclean",
+            "caption": "Clean Sketch",
+            "command": "clean"
+          },
+          // {
+          //   "id": "arduinomonitor",
+          //   "caption": "Monitor USB Port",
+          //   "command": "watch_serial_port"
+          // },
+          {
+            "id": "arduinolocalhelp",
+            "caption": "Local Help for Keyword",
+            "command": "local_help"
+          },
+          {
+            "id": "arduinonewsketchmenu",
+            "caption": "New Sketch",
+            "command": "new_sketch"
+          },
+          {
+            "id": "arduinoopen",
+            "caption": "Open",
+            "children": [
+              {
+                "id": "arduinodirectory",
+                "caption": "Arduino Directory",
+                "command": "open_arduino_directory"
+              },
+              {
+                "id": "arduinolibraries",
+                "caption": "Arduino Libraries",
+                "command": "open_arduino_libraries"
+              },
+              {
+                "id": "arduinoexamples",
+                "caption": "Arduino Examples",
+                "command": "open_arduino_examples"
+              },
+              {
+                "id": "arduinouserdirectory",
+                "caption": "User Arduino Directory",
+                "command": "open_user_arduino_directory"
+              },
+              {
+                "id": "arduinolibraries",
+                "caption": "User Arduino Libraries",
+                "command": "open_user_arduino_libraries"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caption": "Preferences",
+    "mnemonic": "n",
+    "id": "preferences",
+    "children":[{
+      "caption": "Package Settings",
+      "mnemonic": "P",
+      "id": "package-settings",
+      "children":[{
+        "caption": "Arduino",
+        "children": [{
+          "command": "open_file",
+          "args": {
+            "file": "${packages}/Arduino/Arduino.sublime-settings"
+          },
+          "caption": "Settings – Default"
+        },
+        {
+          "command": "open_file",
+          "args": {
+            "file": "${packages}/User/Arduino.sublime-settings"
+          },
+          "caption": "Settings – User"
+        },
+        {
+          "caption": "-"
+        }]
+      }]
+    }]
+  }
+]

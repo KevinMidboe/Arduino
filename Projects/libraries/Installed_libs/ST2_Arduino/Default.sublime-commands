@@ -1,0 +1,26 @@
+[
+  {
+    "caption": "New sketch",
+    "command": "new_sketch"
+  },
+  {
+    "caption": "Open Arduino Libraries",
+    "command": "open_arduino_libraries"
+  },
+  {
+    "caption": "Compile Arduino sketch",
+    "command": "compile"
+  },
+  {
+    "caption": "Upload Arduino sketch",
+    "command": "upload"
+  },
+  {
+    "caption": "Compile and Upload Arduino sketch",
+    "command": "compile_upload"
+  },
+  {
+    "caption": "Clean Arduino sketch",
+    "command": "clean"
+  }
+]
